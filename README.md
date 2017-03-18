@@ -1,4 +1,5 @@
 # CommonPrintProvider
+我的博客地址：http://www.jianshu.com/p/c8a1c7803cfd
 # grade
 ~~~
  allprojects {
@@ -29,7 +30,8 @@ dependencies {
     boolean startPrint(boolean cutpaper);//开始打印
 
 # PrintFormat
-打印格式
+~~~
+//打印格式
  public static final String BARCODE = "barcode-type";
     //文本 对齐方式，字体大小等等
     public static final String ALIGN = "align";
@@ -61,7 +63,8 @@ dependencies {
     public static final int DOUBLE_WIDTH_HEIGHT = 4;
     public static final int BOLD_ENABLE = 0;
     public static final int BOLD_DISABLE = 1;
-    
+    
+~~~    
 # ESC_SYTLE
    /**
      * 打印对齐方式
