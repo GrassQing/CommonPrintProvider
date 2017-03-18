@@ -40,7 +40,7 @@
     boolean startPrint(boolean cutpaper);//开始打印
     
 # 使用
-
+~~~
         
         InitPrint(ESC_SYTLE.MODE_PRINT.WIFI_PRINT, "192.168.0.1","12345");//初始化
         
@@ -100,5 +100,5 @@
         printEnter(2);
         //开始打印 报文详细内容
     }
-
+~~~
     
