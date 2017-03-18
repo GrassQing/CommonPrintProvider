@@ -1,2 +1,2 @@
 # CommonPrintProvider
-通用型热敏打印机接口使用规则接口
+#打印机
