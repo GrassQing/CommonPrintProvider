@@ -33,22 +33,22 @@
 
     void cutPaper();//裁剪纸张，部分打印机没有这个功能
 
-  //  void checkPrint();//快速打印自检,相关设置信息
+
 
     void printEnter();// 打印换行
 
     boolean startPrint(boolean cutpaper);//开始打印
     
 # 使用
- ~~~ 
-        //初始化
-        InitPrint(ESC_SYTLE.MODE_PRINT.WIFI_PRINT, "192.168.0.1","12345");
-        //打印数据
-        initdata();
-        //打印并且切纸
-        startPrint(true);
- ~~~
- ~~~
+
+        
+        InitPrint(ESC_SYTLE.MODE_PRINT.WIFI_PRINT, "192.168.0.1","12345");//初始化
+        
+        initdata();//打印数据
+   
+        startPrint(true);     //打印并且切纸
+
+
         /**
      * 初始化 设置 ip，端口，wifi，打印。。socket通讯
      *
@@ -100,5 +100,5 @@
         printEnter(2);
         //开始打印 报文详细内容
     }
-~~~
+
     
