@@ -1,16 +1,18 @@
 # CommonPrintProvider
 # grade
-allprojects {
+~~~
+ allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
   
-  
+
   dependencies {
 	        compile 'com.github.GrassQing:CommonPrintProvider:1.0.0'
 	}
+ ~~~ 
   # 接口说明
     void InitPrint();//初始化打印    
     boolean preparePrint();//准备打印操作,
@@ -37,7 +39,8 @@ allprojects {
     boolean startPrint(boolean cutpaper);//开始打印
     
    # 使用
-      ~~~//初始化
+      ~~~ 
+      //初始化
         InitPrint(ESC_SYTLE.MODE_PRINT.WIFI_PRINT, "192.168.0.1","12345");
         //打印数据
         initdata();
