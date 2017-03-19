@@ -1,4 +1,5 @@
 # CommonPrintProvider
+wifi实测过，指令内容通用，蓝牙类的自要能连连接上打印机，其他打印步奏基本一致。
 我的博客地址：http://www.jianshu.com/p/c8a1c7803cfd
 # grade
 ~~~
@@ -66,7 +67,8 @@ dependencies {
     
 ~~~    
 # ESC_SYTLE
-   /**
+
+    /**
      * 打印对齐方式
      */
     public enum MODE_ALIGN {
